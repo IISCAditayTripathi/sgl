@@ -118,8 +118,8 @@
 
 <html>
 <head>
-	<title>This is my paper title</title>
-	<meta property="og:image" content="Path to my teaser.png"/> <!-- Facebook automatically scrapes this. Go to https://developers.facebook.com/tools/debug/ if you update and want to force Facebook to rescrape. -->
+	<title>Grounding Scene Graphs on Natural Images via Visio-Lingual Message Passing</title>
+	<meta property="og:image" content="goal_fig.png"/> <!-- Facebook automatically scrapes this. Go to https://developers.facebook.com/tools/debug/ if you update and want to force Facebook to rescrape. -->
 	<meta property="og:title" content="Creative and Descriptive Paper Title." />
 	<meta property="og:description" content="Paper description." />
 
@@ -138,23 +138,23 @@
 <body>
 	<br>
 	<center>
-		<span style="font-size:36px">Creative and Descriptive Paper Title</span>
+		<span style="font-size:36px">Grounding Scene Graphs on Natural Images via Visio-Lingual Message Passing</span>
 		<table align=center width=600px>
 			<table align=center width=600px>
 				<tr>
 					<td align=center width=100px>
 						<center>
-							<span style="font-size:24px"><a href="https://en.wikipedia.org/wiki/James_J._Gibson">First Author</a></span>
+							<span style="font-size:24px"><a href="https://www.linkedin.com/in/aditay-tripathi-930889122">Aditay Tripathi</a></span>
 						</center>
 					</td>
 					<td align=center width=100px>
 						<center>
-							<span style="font-size:24px"><a href="https://en.wikipedia.org/wiki/James_J._Gibson">Second Author</a></span>
+							<span style="font-size:24px"><a href="https://anandmishra22.github.io/">Anand Mishra</a></span>
 						</center>
 					</td>
 					<td align=center width=100px>
 						<center>
-							<span style="font-size:24px"><a href="https://en.wikipedia.org/wiki/James_J._Gibson">Third Author</a></span>
+							<span style="font-size:24px"><a href="https://cds.iisc.ac.in/people/faculty/name/anirban-chakraborty/#:~:text=Anirban%20Chakraborty%20Assistant%20Professor%2C%20Pratiksha,anirban%40iisc.ac.in">Anirban Chakraborty</a></span>
 						</center>
 					</td>
 				</tr>
@@ -168,7 +168,7 @@
 					</td>
 					<td align=center width=120px>
 						<center>
-							<span style="font-size:24px"><a href='https://github.com/richzhang/webpage-template'>[GitHub]</a></span><br>
+							<span style="font-size:24px"><a href='https://github.com/IISCAditayTripathi/Scene-graph-localization'>[GitHub]</a></span><br>
 						</center>
 					</td>
 				</tr>
@@ -181,7 +181,7 @@
 			<tr>
 				<td width=260px>
 					<center>
-						<img class="round" style="width:500px" src="./resources/teaser.png"/>
+						<img class="round" style="width:500px" src="./resources/goal_fig.png"/>
 					</center>
 				</td>
 			</tr>
@@ -201,7 +201,7 @@
 		<center><h1>Abstract</h1></center>
 		<tr>
 			<td>
-				This is my abstract.
+				This paper presents a framework for jointly grounding objects that follow certain semantic relationship constraints given in a scene graph. A typical natural scene contains several objects, often exhibiting visual relationships of varied complexities between them. These inter-object relationships provide strong contextual cues towards improving grounding performance compared to a traditional object query only-based localization task. A scene graph is an efficient and structured way to represent all the objects in the image and their semantic relationships. In an attempt towards bridging these two modalities representing scenes and utilizing contextual information for improving the object localization, we rigorously study the problem of grounding scene graphs in natural images. To this end, we propose a novel graph neural network-based approach referred to as Visio-Lingual Message Passing Graph Neural Network (VL-MPAGNet). The model first constructs a directed graph with object proposals as nodes and an edge between a pair of nodes representing a plausible relation between them. Then a three-step inter-graph and intra-graph message passing are performed to learn the context-dependent representation of the proposals and query objects. These object representations are used to score the proposals to generate object localization. The proposed method significantly outperforms the baselines on four public datasets.
 			</td>
 		</tr>
 	</table>
@@ -238,7 +238,7 @@
 		<tr>
 			<td align=center width=400px>
 				<center>
-					<td><img class="round" style="width:450px" src="./resources/method_diagram.png"/></td>
+					<td><img class="round" style="width:450px" src="./resources/model_fig.png"/></td>
 				</center>
 			</td>
 		</tr>
