@@ -1,6 +1,6 @@
-@inproceedings{author20XXtitle,
-  title={Please cite me},
-  author={Author, First and Author, Second and Author, Third},
-  booktitle={Conference},
-  year={20XX}
+@inproceedings{tripathi2023,
+  title={Grounding Scene Graphs on Natural Images via Visio-Lingual Message Passing},
+  author={Tripathi, Aditay and Mishra, Anand and Chakraborty, Anirban},
+  booktitle={IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  year={2023}
 }
